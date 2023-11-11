@@ -1,0 +1,63 @@
+/* Reset de estilos para uma base limpa */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* ... (outros estilos) ... */
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* ... (outros estilos) ... */
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #f2f2f2;
+}
+
+.data-table td.id {
+    font-weight: bold;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
